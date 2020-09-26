@@ -18,3 +18,12 @@ let today = day + month + date;
 $ ("#currentDay").text(today);
 }
 
+$(".saveBtn").on("click"), function(){
+    // PULL VALUE FROM THE TEXT AREA OF CHOSE SAVE BUTTON"
+   // var value = ;
+     /// Pull the id of the  clicked  element to serve the id 
+  //  var time = ;
+    /// this is where you will save the data to local sroage 
+    logalStorage.setitem()
+
+}
