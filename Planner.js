@@ -18,12 +18,14 @@ let today = day + month + date;
 $ ("#currentDay").text(today);
 }
 
+var time = JSON.parse(localStorage.getelementbyid("Store"));
+
 $(".saveBtn").on("click"), function(){
     // PULL VALUE FROM THE TEXT AREA OF CHOSE SAVE BUTTON"
-   // var value = ;
+   var value = [0];
      /// Pull the id of the  clicked  element to serve the id 
-  //  var time = ;
+    
     /// this is where you will save the data to local sroage 
-    logalStorage.setitem()
+    logalStorage.setitem("#store")
 
 }
